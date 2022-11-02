@@ -148,6 +148,40 @@ export default function AuthorLayout({ children, frontMatter }) {
             </li>
           </ul>
         </div>
+
+        <div className="space-y-3">
+          <h1 className="text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100">
+            Social Impacts
+          </h1>
+          <ul className="space-y-3 pl-3 text-gray-700 dark:text-gray-300">
+            <li>
+              <div>
+                <strong className="text-lg">코드포코리아</strong>{' '}
+                <small className="text-gray-600 dark:text-gray-400">(2020-03 ~ )</small>
+              </div>
+              <a
+                href="https://codefor.kr"
+                className="text-sm text-gray-600 dark:text-gray-400"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://codefor.kr
+              </a>
+            </li>
+            <li className="space-y-2">
+              <div>
+                <strong className="text-lg">대한민국 열린정부위원회 민간위원</strong>{' '}
+                <small className="text-gray-600 dark:text-gray-400">(2021-09 ~ )</small>
+              </div>
+            </li>
+            <li>
+              <div>
+                <strong className="text-lg">2021년 정부혁신컨설팅 자문위원</strong>{' '}
+                <small className="text-gray-600 dark:text-gray-400">(2021-06 ~ 2021-11)</small>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   )

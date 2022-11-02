@@ -21,7 +21,7 @@ const siteMetadata = {
     plausibleDataDomain: '',
     simpleAnalytics: false,
     umamiWebsiteId: '',
-    googleAnalyticsId: '',
+    googleAnalyticsId: 'G-T9TMXEDJ1D',
     posthogAnalyticsId: '',
   },
   comment: {
