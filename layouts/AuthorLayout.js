@@ -91,8 +91,26 @@ export default function AuthorLayout({ children, frontMatter }) {
           </h1>
           <ul className="space-y-3 pl-3 text-gray-700 dark:text-gray-300">
             <li className="space-y-2">
-              <div>
+              <div className="space-x-1">
+                <strong className="text-lg">당근마켓</strong>{' '}
+                <small className="text-gray-600 dark:text-gray-400">
+                  Site Reliability Engineer
+                </small>
+                <small className="text-gray-600 dark:text-gray-400">(2023-01 ~ )</small>
+              </div>
+              <a
+                href="https://team.daangn.com"
+                className="text-sm text-gray-600 dark:text-gray-400"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://team.daangn.com/
+              </a>
+            </li>
+            <li className="space-y-2">
+              <div className="space-x-1">
                 <strong className="text-lg">SW마에스트로 13기</strong>{' '}
+                <small className="text-gray-600 dark:text-gray-400">연수생</small>
                 <small className="text-gray-600 dark:text-gray-400">(2022-06 ~ 2022-11)</small>
               </div>
               <a
@@ -105,8 +123,9 @@ export default function AuthorLayout({ children, frontMatter }) {
               </a>
             </li>
             <li>
-              <div>
+              <div className="space-x-1">
                 <strong className="text-lg">시대생</strong>{' '}
+                <small className="text-gray-600 dark:text-gray-400">개발 챕터리드</small>
                 <small className="text-gray-600 dark:text-gray-400">(2021-04 ~ )</small>
               </div>
               <a
