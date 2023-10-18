@@ -93,9 +93,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <li className="space-y-2">
               <div className="space-x-1">
                 <strong className="text-lg">허슬러즈</strong>{' '}
-                <small className="text-gray-600 dark:text-gray-400">
-                  iOS Engineer
-                </small>
+                <small className="text-gray-600 dark:text-gray-400">iOS Engineer</small>
                 <small className="text-gray-600 dark:text-gray-400">(2023-05 ~ )</small>
               </div>
               <a
