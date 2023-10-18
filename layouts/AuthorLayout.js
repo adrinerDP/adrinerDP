@@ -92,19 +92,36 @@ export default function AuthorLayout({ children, frontMatter }) {
           <ul className="space-y-3 pl-3 text-gray-700 dark:text-gray-300">
             <li className="space-y-2">
               <div className="space-x-1">
-                <strong className="text-lg">당근마켓</strong>{' '}
+                <strong className="text-lg">허슬러즈</strong>{' '}
                 <small className="text-gray-600 dark:text-gray-400">
-                  Site Reliability Engineer
+                  iOS Engineer
                 </small>
-                <small className="text-gray-600 dark:text-gray-400">(2023-01 ~ )</small>
+                <small className="text-gray-600 dark:text-gray-400">(2023-05 ~ )</small>
               </div>
               <a
-                href="https://team.daangn.com"
+                href="https://hustlers.co.kr"
                 className="text-sm text-gray-600 dark:text-gray-400"
                 target="_blank"
                 rel="noreferrer"
               >
-                https://team.daangn.com/
+                https://hustlers.co.kr
+              </a>
+            </li>
+            <li className="space-y-2">
+              <div className="space-x-1">
+                <strong className="text-lg">당근마켓</strong>{' '}
+                <small className="text-gray-600 dark:text-gray-400">
+                  Site Reliability Engineer (Intern)
+                </small>
+                <small className="text-gray-600 dark:text-gray-400">(2023-01 ~ 2023-02)</small>
+              </div>
+              <a
+                href="https://about.daangn.com"
+                className="text-sm text-gray-600 dark:text-gray-400"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://about.daangn.com/
               </a>
             </li>
             <li className="space-y-2">
