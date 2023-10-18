@@ -107,7 +107,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             </li>
             <li className="space-y-2">
               <div className="space-x-1">
-                <strong className="text-lg">당근마켓</strong>{' '}
+                <strong className="text-lg">당근</strong>{' '}
                 <small className="text-gray-600 dark:text-gray-400">
                   Site Reliability Engineer (Intern)
                 </small>
