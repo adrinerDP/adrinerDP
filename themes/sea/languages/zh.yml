@@ -1,0 +1,20 @@
+page:
+  contents: 目录
+  categories: 分类
+  tags: 标签
+  tagcloud: 标签云
+  archive: 归档
+  recent_articles: 最近文章
+  archive_total: 共计 %d 篇文章！
+
+theme:
+  auto: 跟随系统
+  light: 浅色模式
+  dark: 深色模式
+
+footer:
+  home: 首页
+  site_pv: 'PV: %s'
+  site_uv: 'UV: %s'
+  rss: RSS
+  theme_source: Theme by %s

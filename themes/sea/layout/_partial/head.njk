@@ -1,0 +1,32 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ generatePageTitle(page) }}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="{{ config.keywords }}">
+  <meta name="theme-color" content="{{ theme.primaryColor }}">
+
+  <link rel="canonical" href="{{ full_url_for(page.path) }}">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+
+  {{ favicon_tag(config.favicon) }}
+
+  {# CSS #}
+  {{ css('css/main') }}
+
+  {# Open Graph #}
+  {{ open_graph() }}
+
+  <style>
+    :root {
+      --sea-color-primary: {{ theme.primaryColor }};
+    }
+  </style>
+
+  {{ js('js/theme_mode') }}
+
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</head>

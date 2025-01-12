@@ -1,0 +1,9 @@
+<div class="sea-page-card-wrapper">
+  <h1 class="sea-page-card-title">
+    {{ page.category }}
+  </h1>
+
+  {{ partial('_partial/post/post_list', {post_list: page.posts.toArray()}) }}
+</div>
+
+{{ partial('_partial/main/pagination') }}

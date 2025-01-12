@@ -1,0 +1,20 @@
+page:
+  contents: 컨텐츠
+  categories: 카테고리
+  tags: 태그
+  tagcloud: 태그 클라우드
+  archive: 아카이브
+  recent_articles: 최근 글
+  archive_total: ""
+
+theme:
+  auto: System
+  light: Light
+  dark: Dark
+
+footer:
+  home: 홈
+  site_pv: 'PV: %s'
+  site_uv: 'UV: %s'
+  rss: RSS
+  theme_source: Theme by %s

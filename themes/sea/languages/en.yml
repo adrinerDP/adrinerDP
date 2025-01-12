@@ -1,0 +1,20 @@
+page:
+  contents: Contents
+  categories: Categories
+  tags: Tags
+  tagcloud: Tag Cloud
+  archive: Archive
+  recent_articles: Recent Articles
+  archive_total: Total %d articles!
+
+theme:
+  auto: System
+  light: Light
+  dark: Dark
+
+footer:
+  home: Home
+  site_pv: 'PV: %s'
+  site_uv: 'UV: %s'
+  rss: RSS
+  theme_source: Theme by %s

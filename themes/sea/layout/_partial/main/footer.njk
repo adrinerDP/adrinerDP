@@ -1,0 +1,36 @@
+<footer id="sea-footer-container">
+  <div class="sea-footer-row">
+    <div class="sea-footer-menu-link">
+      {% for item in theme.socialLink %}
+        <a
+          class="sea-footer-link"
+          {% if item.link.startsWith("http") %}
+            target="_blank"
+          {% endif %}
+          href="{{ url_for(item.link) }}"
+        >
+          {{ item.name }}
+        </a>
+        <span class="sea-footer-link__dot">·</span>
+      {% endfor %}
+    </div>
+  </div>
+  {% set current = moment().year() %}
+  {% set since = moment(theme.footer.builtUpTime).year() %}
+  <div class="sea-footer-row">
+    <div class="sea-footer-copyright">
+      <span>©</span>
+      {% if current > since %}
+        {{ since + '-' + current }}
+      {% else %}
+        {{ current }}
+      {% endif %}
+      <span>·</span>
+      {{ config.author }}
+    </div>
+    <span class="split-line">|</span>
+    <div class="sea-footer-theme-by">
+      {{ _p('footer.theme_source', '<a class="theme" href="https://github.com/hai-zou/hexo-theme-sea" target="_blank">Sea</a>') }}
+    </div>
+  </div>
+</footer>

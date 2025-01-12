@@ -1,0 +1,48 @@
+menu:
+  - name: 아카이브
+    url: /archives
+  - name: 태그
+    url: /tags
+  - name: 소개
+    url: /about
+
+comment:
+  enable: true
+  type: giscus
+
+giscus:
+  repo: adrinerdp/adrinerdp
+  repoid: MDEwOlJlcG9zaXRvcnkzNjgwNDQ0ODU=
+  category: General
+  categoryid: DIC_kwDOFe_pxc4Cl8Wp
+  mapping: pathname
+  term:
+  reactionsenabled: 1
+  emitmetadata: 0
+  inputposition: bottom
+  loading:
+
+search:
+  enable: false
+  type: # algolia
+
+# Docsearch https://docsearch.algolia.com/apply/
+algolia:
+  appId:
+  apiKey:
+  indexName:
+
+friends:
+  # - name: xxx's blog
+  #   avatar: https://xx.png
+  #   link: https://blog.xxx.com
+  #   desc: xxx
+
+footer:
+  builtUpTime: # 2020-05-20 13:14:00
+
+socialLink:
+  - name: GitHub
+    link: https://github.com/adrinerDP
+
+primaryColor: '#5352ed'

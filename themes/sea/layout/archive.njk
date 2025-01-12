@@ -1,0 +1,32 @@
+<div class="sea-page-card-wrapper">
+  <h1 class="sea-page-card-title">{{ __('page.archive') }}</h1>
+  <h2 class="sea-archive-total">
+    {{ _p('page.archive_total', site.posts.length) }}
+  </h2>
+
+  <div class="sea-archive-list">
+    {% set year = '' %}
+    {% for post in page.posts.toArray() %}
+      {% set postYear = date(post.date, 'YYYY') %}
+      {% if postYear !== year %}
+        {% set year = postYear %}
+        <h3 class="sea-archive-year">
+          {{ year }}
+        </h3>
+      {% endif %}
+      <a
+        class="sea-archive-list-item"
+        href="{{ url_for(post.path) }}"
+      >
+        <span class="sea-archive-list-item-title" title="{{ post.title }}">
+          {{ post.title }}
+        </span>
+        <span class="sea-archive-list-item-date">
+          {{ date(post.date, 'YYYY-MM-DD') }}
+        </span>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+{{ partial('_partial/main/pagination') }}
