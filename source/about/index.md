@@ -36,12 +36,25 @@ date: 2025-01-12 18:10:07
 
 <div style="display:flex;flex-direction:column;gap:8px">
     <div style="display:flex;align-items:center;justify-content:space-between">
+        <h3 style="margin:0">Liner</h3>
+        <a href="https://liner.com" target="_blank">liner.com</a>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:space-between">
+        <p style="margin:0">React Native Engineer</p>
+        <p style="margin:0;color:dimgray">2025-04 ~ Current</p>
+    </div>
+</div>
+
+<br />
+
+<div style="display:flex;flex-direction:column;gap:8px">
+    <div style="display:flex;align-items:center;justify-content:space-between">
         <h3 style="margin:0">HUSTLERS Corp.</h3>
         <a href="https://www.hustlers.co.kr" target="_blank">hustlers.co.kr</a>
     </div>
     <div style="display:flex;align-items:center;justify-content:space-between">
         <p style="margin:0">iOS & DevOps <small style="color:gray">(Tech Leader)</small></p>
-        <p style="margin:0;color:dimgray">2023-05 ~ Current</p>
+        <p style="margin:0;color:dimgray">2023-05 ~ 2025-03</p>
     </div>
 </div>
 
