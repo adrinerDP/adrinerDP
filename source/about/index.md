@@ -35,16 +35,95 @@ updated: 2026-09-13 19:00:00
 
 ## Careers
 
-<div style="display:flex;flex-direction:column;gap:8px">
-    <div style="display:flex;align-items:center;justify-content:space-between">
-        <h3 style="margin:0">Liner</h3>
-        <a href="https://liner.com" target="_blank">liner.com</a>
-    </div>
-    <div style="display:flex;align-items:center;justify-content:space-between">
-        <p style="margin:0">Software Engineer</p>
-        <p style="margin:0;color:dimgray">2025-04 ~ Current</p>
-    </div>
-</div>
+### Liner
+
+**Software Engineer (Mobile) | 2025.04 ~ 현재**
+
+React Native 기반 모바일 앱을 중심으로 웹 제품, AI 서비스 연동, 구독 및 결제 기능을 개발합니다. 공통 인증 플랫폼과 배포 자동화는 설계부터 구현, 조직 내 도입까지 주도했습니다.
+
+#### Mobile Application
+
+- **React Native 및 Expo 기반 AI 검색 앱 개발**
+  - 기존 앱의 Expo 마이그레이션 및 전면 재작성
+  - 검색, 답변, 온보딩, 구독 등 주요 사용자 흐름 이관
+- **모바일 사용 경험 개선**
+  - 답변의 출처와 생성 과정 표시, 답변 비교 및 후속 작업 기능 개발
+  - 딥링크, Push Notification 라우팅 및 WebView 브리지 구현
+  - 공통 UI 컴포넌트, 다크모드, 다국어 및 태블릿 대응
+
+#### Web Product
+
+- **AI 시각화 기능 개발**
+  - React 기반 시각화 결과 UI 및 사용자 피드백 기능 구현
+  - iframe의 스트리밍 전환, 테마 변경 및 렌더링 문제 개선
+  - Statsig 기반 기능 노출 실험 및 이벤트 계측
+- **콘텐츠 및 온보딩 기능 개발**
+  - Notion CMS와 Next.js를 연동한 정책 문서 페이지 및 버전 조회 기능 구현
+  - 사용자 행동과 퍼널 상태를 관리하는 온보딩 넛지 코디네이터 기반 구현
+
+#### Subscription & Monetization
+
+- **인앱 구독 및 페이월 구현 전반 담당**
+  - iOS 및 Android 스토어 상품과 구독 API 연동
+  - 멤버십 상태에 따른 기능별 이용 권한 처리
+  - 페이월 노출 위치와 순서 논의 참여 및 구현
+- **프로모션 및 크레딧 과금**
+  - 제휴 프로모션, 할인 상품, 크레딧 리워드 및 광고 연동
+  - Kotlin 기반 AI 도구 실행 내역 집계와 응답 완료 시점의 크레딧 차감 로직 개선
+
+#### AI Service Integration
+
+- **실시간 음성 전사 API 개발**
+  - Python 기반 세션 API 및 OpenAI Realtime API 연동
+  - 클라이언트용 단기 인증 토큰 발급
+  - Pydantic 기반 요청 및 응답 스키마 구현
+- **AI 시각화 및 추적 정보 연동**
+  - 사용자 로케일에 따른 시각화 생성 요청과 프롬프트 다국어 대응
+  - Langfuse 기반 AI 서비스 간 요청 및 세션 추적 정보 연동
+
+#### Analytics & Observability
+
+- **사용자 행동 분석 및 실험**
+  - Amplitude와 Airbridge 기반 행동 이벤트 및 구독 매출 정보 연동
+  - 사용자 식별 정보 동기화와 분석 SDK 초기화 흐름 개선
+  - 이벤트 유실 및 사용자 여정 연결 문제 수정
+  - Statsig 기반 Feature Flag 및 실험 도구 연동
+- **앱 오류 진단**
+  - Sentry 기반 오류 추적 환경 구축 및 진단 정보 수집 개선
+  - 앱 크래시와 릴리스 회귀 문제 대응
+
+#### Identity Platform
+
+- **공통 인증 플랫폼 구축 주도**
+  - 문제 정의부터 설계, 구현, 조직 내 도입까지 담당
+  - OAuth 2.0 기반 인증 포털과 클라이언트별 설정 체계 구축
+  - 소셜 로그인과 프로필, 계정 및 구독 관리 기능 통합
+- **인증 SDK 및 웹 연동**
+  - Redirect, Popup, Inline 인증 방식을 지원하는 React SDK 개발
+  - React Router의 Server Loader를 활용한 인증 리다이렉트 구현
+  - 인증 상태에 따른 필수 정보 입력 및 동의 처리 흐름 구현
+
+#### Mobile Delivery
+
+- **앱 빌드 및 배포 자동화 주도**
+  - Fastlane과 GitHub Actions 기반 iOS 및 Android 빌드와 배포 자동화
+  - App Store 및 Google Play 심사 제출 워크플로 구축
+  - 개발, 스테이징, 운영 환경 분리 및 배포 설정 관리
+- **OTA 업데이트**
+  - CodePush에서 Hot Updater로 업데이트 체계 전환
+  - 앱 업데이트와 환경 설정 연계 개선
+
+#### Developer Platform & Infrastructure
+
+- **개발환경 및 배포 관리 플랫폼 구축 주도**
+  - 조직과 프로젝트 단위의 환경 및 배포 관리 기능 개발
+  - Next.js App Router와 Hono 기반 관리 화면 및 API 구현
+  - GitHub Workflow Dispatch 기반 배포 실행과 상태 추적 연동
+- **GitOps 및 CI/CD**
+  - Kubernetes 환경의 Helm 차트 작성 및 ArgoCD 배포 설정
+  - Actions Runner Controller 기반 CI 러너의 캐시 구성과 Pod 분산 설정 개선
+  - Turborepo 변경 영향 분석을 활용한 CI 실행 대상 선별
+  - Next.js 빌드 캐시 및 배포 워크플로 최적화
 
 <br />
 
